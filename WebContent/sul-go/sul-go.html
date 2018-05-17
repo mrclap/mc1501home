@@ -95,53 +95,45 @@
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
-    <!-- sign up  -->
-	<h2 class="col-sm-12" style="text-align: center; margin-bottom:40px;">sign up</h2>
-	<form class="form-horizontal">
-	  <div class="form-group">
-	    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-	    <div class="col-sm-9">
-	      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-	      <p class="col-sm-1"></p>
+     <!-- 술고?  -->
+	<h2 class="text-center" style="margin-bottom:20px;">술고?!</h2>
+	  <div class="row justify-content-md-center">
+	    <div class="col-md-auto text-center">
+	          <p>여러분의 음주를 지향합니다. <br>
+	          	자연스럽고 노골적으로 오늘의 술 한 잔을 제안하세요. <br>
+	          	2명 이상이 술고? 버튼을 누를 경우 메인에 술고?! 인디케이터가 활성화됩니다.</p>
+	          <br>
 	    </div>
 	  </div>
-	  <div class="form-group" style="margin-bottom:20px;">
-	    <label for="inputEmailCheck" class="col-sm-2 control-label">Check-Email</label>
-	    <div class="col-sm-9">
-	      <input type="email" class="form-control" id="inputEmailCheck" placeholder="Check-Email">
-	      <p class="col-sm-1"></p>
-	    </div>
-	  </div>
-	  <div class="form-group" style="margin-bottom:20px;">
-	    <label for="inputName" class="col-sm-2 control-label">Name</label>
-	    <div class="col-sm-9">
-	      <input type="text" class="form-control" id="inputName" placeholder="Name">
-	      <p class="col-sm-1"></p>
-	    </div>
-	  </div>
-	  <div class="form-group">
-	    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
-	    <div class="col-sm-9">
-	      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-	      <p class="col-sm-1"></p>
-	    </div>
-	  </div>
-	  <div class="form-group">
-	    <label for="inputPasswordCheck" class="col-sm-2 control-label">Check-Password</label>
-	    <div class="col-sm-9">
-	      <input type="password" class="form-control" id="inputPasswordCheck" placeholder="Check-Password">
-	      <p class="col-sm-1"></p>
-	    </div>
-	  </div>
-	  
-	  <div class="form-group">
-	    <div class="col-sm-offset-2 col-sm-10">
-	      <button type="submit" class="btn btn-default">sign up</button>
-	      <button type="submit" class="btn btn-default">cancel</button>
-	    </div>
-	  </div>
-	</form>
 
+	<div class="container">
+	  <div class="row text-center">
+				<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+				<button type="button" class="btn btn-success btn-lg">술고?!!</button>
+		</div>
+	</div>
+	<br>
+	<br>
+	
+		<div class="dropdown">
+		  
+		  <!-- 2명 이상이 술고 버튼을 누르지 않앗을 때에는 
+		  <button class="btn btn-secondary dropdown-toggle disabled" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    오늘의 술고 전사 보기
+		  </button>  
+		     -->
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    오늘의 술고 전사 보기
+		  </button>
+		  
+		  
+		  <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuButton">
+		    
+		    <p class="dropdown-item text-center">김봉남</p>
+		    <p class="dropdown-item text-center">이말숙</p>
+		    <p class="dropdown-item text-center">박준홍</p>
+		  </div>
+		</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
